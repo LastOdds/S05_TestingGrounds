@@ -19,5 +19,4 @@ public:
 private:
 	UPROPERTY(EditInstanceOnly, Category = "Waypoints")
 	TArray<AActor*> Waypoints;
-	
 };
