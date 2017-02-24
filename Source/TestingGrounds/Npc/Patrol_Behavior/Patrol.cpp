@@ -6,5 +6,5 @@
 
 TArray<AActor*> UPatrol::GetPatrolPoints() const
 {
-	return Waypoints;
+	return RandomWaypoints;
 }

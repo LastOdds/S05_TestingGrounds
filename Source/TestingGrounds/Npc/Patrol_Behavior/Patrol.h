@@ -16,6 +16,9 @@ class TESTINGGROUNDS_API UPatrol : public UActorComponent
 public:	
 	TArray<AActor*> GetPatrolPoints() const;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Waypoints")
+	TArray<AActor*> RandomWaypoints;
+
 private:
 	UPROPERTY(EditInstanceOnly, Category = "Waypoints")
 	TArray<AActor*> Waypoints;
